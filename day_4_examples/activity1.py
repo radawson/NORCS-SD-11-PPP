@@ -14,7 +14,8 @@ even_list = [is_even(x) for x in original_list]
 list1 = [i for i in range(1,101)]
  
 sentence = "The quick brown fox jumped over the fence."
-word_lengths = {word: len(word) for word in sentence.split()}
+word_list = sentence.split()
+word_lengths = {word: len(word) for word in word_list}
 
 if __name__ == "__main__":
     print(unsorted_list)
