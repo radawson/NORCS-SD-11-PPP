@@ -39,6 +39,7 @@ def product_of_numbers(lst):
 
 
 # Write an algorithm that prints the non-repeating integers in a list.
+# Interview question: Should the resulting numbers be printed or returned?
 def print_non_repeating_integers(lst):
     counts = {}
     for num in lst:
