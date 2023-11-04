@@ -54,3 +54,13 @@ def print_non_repeating_integers(lst):
 if __name__ == "__main__":
     print(contains_substring("Hello, world", "Hello"))
     print(contains_substring("Hello, world", "hello"))
+    print("_" * 40)
+    print(recursive_sum(5))
+    print("_" * 40)
+    print(reverse_string("hello"))
+    print("_" * 40)
+    print(capitalize_words(["pandas", "monkeys", "koalas", "kangaroos"]))
+    print("_" * 40)
+    print(product_of_numbers([3, 4, 5]))
+    print("_" * 40)
+    print_non_repeating_integers([1, 5, 1, 6, 8, 5])
